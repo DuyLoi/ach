@@ -1,0 +1,95 @@
+{
+	"Header": {
+		"SenderReference": "0210970415040211492920190001000001",
+		"MessageIdentifier": "pacs.002.001.09",
+		"Format": "MX",
+		"Sender": {
+			"ID": "970415",
+			"Name": "Vieinbank"
+		},
+		"Receiver": {
+			"ID": "970411",
+			"Name": "Napas"
+		},
+		"Timestamp": "2019-04-02T11:49:29.101+07:00",
+		"Signature": ""
+	},
+	"Payload": {
+		"AppHdr": {
+			"Fr": {
+				"FIId": {
+					"FinInstnId": {
+						"ClrSysMmbId": {
+							"MmbId": "970415"
+						}
+					}
+				}
+			},
+			"To": {
+				"FIId": {
+					"FinInstnId": {
+						"ClrSysMmbId": {
+							"MmbId": "970411"
+						}
+					}
+				}
+			},
+			"BizMsgIdr": "0210970415040211492920190001000001",
+			"MsgDefIdr": "pacs.002.001.09",
+			"BizSvc": "ACH",
+			"CreDt": "2019-04-02T07:49:29.101Z"
+		},
+		"Document": {
+			"FIToFIPmtStsRpt": {
+				"GrpHdr": {
+					"MsgId": "0210970415040211492920190001000001",
+					"CreDtTm": "2019-04-02T11:49:29.101+07:00",
+					"InstgAgt": {
+						"FinInstnId": {
+							"ClrSysMmbId": {
+								"MmbId": "970418"
+							}
+						}
+					},
+					"InstdAgt": {
+						"FinInstnId": {
+							"ClrSysMmbId": {
+								"MmbId": "970411"
+							}
+						}
+					}
+				},
+				"OrgnlGrpInfAndSts": {
+					"OrgnlMsgId": "0200970418040211492920190001000001",
+					"OrgnlMsgNmId": "pacs.008.001.07",
+					"OrgnlCreDtTm": "2019-04-02T11:49:29.101+07:00",
+					"StsRsnInf": {
+						"Rsn": {
+							"Prtry": "AUTH"
+						}
+					}
+				},
+				"TxInfAndSts": {
+					"OrgnlInstrId": "9120209704180402114929888888888888",
+					"OrgnlEndToEndId": "040205IF_DEP1111aaaaAAAA2222",
+					"OrgnlTxId": "0200970418040211492920190001000001",
+					"StsRsnInf": {
+						"Rsn": {
+							"Prtry": "AUTH"
+						}
+					},
+					"InstgAgt": {
+						"FinInstnId": {
+							"ClrSysMmbId": {
+								"MmbId": "970418"
+							}
+						}
+					},
+					"OrgnlTxRef": {
+						"IntrBkSttlmDt": "2019-04-02"
+					}
+				}
+			}
+		}
+	}
+}

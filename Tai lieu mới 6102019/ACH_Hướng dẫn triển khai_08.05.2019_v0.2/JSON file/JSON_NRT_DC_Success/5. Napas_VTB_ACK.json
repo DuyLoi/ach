@@ -1,0 +1,25 @@
+{
+	"Header": {
+		"SenderReference": "0210970415040211492920190001000001",
+		"MessageIdentifier": "stp.ack",
+		"Format": "MX",
+		"Sender": {
+			"ID": "970411",
+			"Name": "Napas"
+		},
+		"Receiver": {
+			"ID": "970415",
+			"Name": "VTB"
+		},
+		"Timestamp": "2019-04-02T11:49:29.101+07:00",
+		"Signature": ""
+	},
+
+	"Payload": {
+		"ack_nak": {
+			"type": "ACK"
+		}
+	}	
+}
+
+

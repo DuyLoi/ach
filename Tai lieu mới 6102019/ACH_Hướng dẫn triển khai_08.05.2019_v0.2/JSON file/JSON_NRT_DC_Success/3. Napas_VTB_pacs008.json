@@ -1,0 +1,152 @@
+{
+	"Header": {
+		"SenderReference": "0200970418040211492920190001000001",
+		"MessageIdentifier": "pacs.008.001.07",
+		"Format": "MX",
+		"Sender": {
+			"ID": "970411",
+			"Name": "Napas"
+		},
+		"Receiver": {
+			"ID": "970415",
+			"Name": "Vietinbank"
+		},
+		"Timestamp": "2019-04-02T11:49:29.101+07:00",
+		"Signature": ""
+	},
+	"Payload": {
+		"AppHdr": {
+			"Fr": {
+				"FIId": {
+					"FinInstnId": {
+						"ClrSysMmbId": {
+							"MmbId": "970411"
+						}
+					}
+				}
+			},
+			"To": {
+				"FIId": {
+					"FinInstnId": {
+						"ClrSysMmbId": {
+							"MmbId": "970415"
+						}
+					}
+				}
+			},
+			"BizMsgIdr": "0200970418040211492920190001000001",
+			"MsgDefIdr": "pacs.008.001.07",
+			"BizSvc": "ACH",
+			"CreDt": "2019-04-02T07:49:29.101Z"
+		},
+		"Document": {
+			"FIToFICstmrCdtTrf": {
+				"GrpHdr": {
+					"MsgId": "0200970418040211492920190001000001",
+					"CreDtTm": "2019-04-02T11:49:29.101+07:00",
+					"NbOfTxs":	1,
+					"TtlIntrBkSttlmAmt": {
+						"Ccy": "VND",
+						"Value": "100.00"
+					},
+					"IntrBkSttlmDt": "2019-04-02",
+					"SttlmInf": {
+						"SttlmMtd": "CLRG"
+					}
+				},
+				"CdtTrfTxInf": {
+					"PmtId": {
+						"InstrId": "9120209704180402114929888888888888",
+						"EndToEndId": "040205IF_DEP    1111aaaaAAAA2222",
+						"TxId": "0200970418040211492920190001000001"
+					},
+					"PmtTpInf": {
+						"ClrChanl": "RTNS",
+						"SvcLvl": {
+							"Prtry": "0100"
+						},
+						"LclInstrm": {
+							"Prtry": "CSDC"
+						},
+						"CtgyPurp": {
+							"Prtry": "001"
+						}
+					},
+					"IntrBkSttlmAmt": {
+						"Ccy": "VND",
+						"Value": "100.00"
+					},
+					"ChrgBr": "SLEV",
+					"InstgAgt": {
+						"FinInstnId": {
+							"ClrSysMmbId": {
+								"MmbId": "970418"
+							}
+						}
+					},
+					"InstdAgt": {
+						"FinInstnId": {
+							"ClrSysMmbId": {
+								"MmbId": "970415"
+							}
+						}
+					},
+					"Dbtr": {
+						"Nm": "Nguyen Ngoc Loan",
+						"PstlAdr": {
+							"AdrLine": ["Tang 17-18 Toa Nha Pacific Place, 83B Ly Thuong Kiet","Phuong Tran Hung Dao, Quan Hoan Kiem","Thanh pho Ha Noi, Viet nam"]
+						}
+					},
+					"DbtrAcct": {
+						"Id": {
+							"Othr": {
+								"Id": "12210000200835"
+							}
+						},
+						"Tp": {
+							"Prtry": "ACC"
+						}
+					},
+					"DbtrAgt": {
+						"FinInstnId": {
+							"ClrSysMmbId": {
+								"MmbId": "970418"
+							}
+						}
+					},
+					"CdtrAgt": {
+						"FinInstnId": {
+							"ClrSysMmbId": {
+								"MmbId": "970415"
+							}
+						}
+					},
+					"Cdtr": {
+						"Nm": "Ha Nam Ninh",
+						"PstlAdr": {
+							"AdrLine": ["So nha 05 Duong Kim Giang", "Phuong Dinh Cong, Quan Hoang Mai", "Thanh pho Ha Noi, Viet nam"
+						}
+					},
+					"CdtrAcct": {
+						"Id": {
+							"Othr": {
+								"Id": "0011004273600"
+							}
+						},
+						"Tp": {
+							"Prtry": "ACC"
+						}
+					},
+					"InstrForNxtAgt": {
+						"InstrInf": [
+							"/TAM/100.00/TDT/0402074929/SCR/00000001/MCC/7399/AIC/704/PEM/000/PCD/00/FID/970472/MID/000000000000000",
+							"/MNM/IBT SMARTLINK            HANOI       VNM/SCC/704/BID/970415/FAI/123456789/TAI/987654321",
+							"/CTR/Thanh toan tien mua ho may tinh ca nhan",
+							"/MAC/EAA4BC0000004C12"
+						]
+					}
+				}
+			}
+		}
+	}
+}

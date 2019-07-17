@@ -1,0 +1,61 @@
+{
+	"Header": {
+		"SenderReference": "Q52554/n92",
+		"MessageIdentifier": "camt.025.001.04",
+		"Format": "MX",
+		"Sender": {
+			"ID": "970411",
+			"Name": "Napas"
+		},
+		"Receiver": {
+			"ID": "970415",
+			"Name": "VTB"
+		},
+		"Timestamp": "2019-04-02T11:49:29.101+07:00",
+		"Signature": ""
+	},
+	"Payload": {
+		"AppHdr": {
+			"Fr": {
+				"FIId": {
+					"FinInstnId": {
+						"ClrSysMmbId": {
+							"MmbId": "970411"
+						}
+					}
+				}
+			},
+			"To": {
+				"FIId": {
+					"FinInstnId": {
+						"ClrSysMmbId": {
+							"MmbId": "970415"
+						}
+					}
+				}
+			},
+			"BizMsgIdr": "190121NAPASVNVAACH0001000059",
+			"MsgDefIdr": "camt.025.001.04",
+			"BizSvc": "RTGS",
+			"CreDt": "2019-04-02T07:49:29.101Z"
+		},
+		"Document": {
+			"Rct": {
+				"MsgHdr": {
+					"MsgId": "Q52554/n92",
+					"CreDtTm": "2019-04-02T11:49:29.101+07:00"
+				},
+				"RctDtls": {
+					"OrgnlMsgId": {
+						"MsgId": "0210970415040211492920190001000001",
+						"MsgNmId": "pacs.002.001.09",
+						"OrgtrNm": "970415"
+					},
+					"ReqHdlg": {
+						"StsCd": "OK"
+					}
+				}
+			}
+		}
+	}	
+}
